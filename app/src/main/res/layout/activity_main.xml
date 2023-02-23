@@ -9,6 +9,13 @@
     android:gravity="center_vertical"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/DiceImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/empty_dice"
+        tools:src="@drawable/dice_1"/>
+
     <TextView
         android:id="@+id/NumberTxt"
         android:layout_width="wrap_content"
@@ -24,12 +31,6 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/rollTxt"
         android:onClick="rollDice"/>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/dice_1" />
 
     <!--    <Button-->
 <!--        android:id="@+id/RollingBtn"-->
